@@ -7,8 +7,10 @@ from humanfriendly import format_timespan, format_size, format_number, format_le
 import time, random, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, pytz, six, ast, urllib, urllib.parse, timeit, _thread
 botStart = time.time()
 set = {
-    "bot1" : [],
-    "bots1" : []
+    "bot1" : [EN2H3QkUsShdDYCz5mOb.prRZLwJqPCmMfE5IXSxJAW.8MD1eUxBFdPTQF6IlMYOdOxQYBfz7e51y4Z5byxRRR0=],
+    "bots1" : [ENNLWL4gIPzKhUi2jUfc.42j1h3zz0ZDX1u0QmwdB3a.dLC/89cVT3LHKeOy1sMi1cY5yJ2g3WVgntJDicJetr8=],
+    "bots2" : [ENnK1BfoXoY5Sc7pCt28.+Es3tzQcdLmg7lYXW5GFIa.V8H69H9Hq0f4eyPWAw8yZ1PvQn2iKWtHWCZEzNVkHmM=],
+    "bots3" : [ENyBvH5ip5D25HmWn7de.DPb0VWc+lxIi+i5T4WVCBG.+EIRU5uFw2ekUUXYqwW+fdqaMpyl7kyaRHFe6SKFtZQ=]
 }
 tkn = json.load(codecs.open("tokens.json","r","utf-8"))
 botnum = tkn["botnum"]
